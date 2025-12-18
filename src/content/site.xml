@@ -1,0 +1,25 @@
+<site>
+  <home>
+    <intro>hello, i'm ven.</intro>
+  </home>
+  <projects>
+    <item href="https://github.com/venstum/minimal-dots">minimal-dots</item>
+    <item href="https://github.com/venstum/pixel-blur">pixel-blur</item>
+  </projects>
+  <blog>
+    <post>
+      <title>genesis</title>
+      <summary>welcome to my first blog post!</summary>
+      <date>2025/12/18</date>
+    </post>
+  </blog>
+  <about>
+    <bio>hello, my name is ven. 25 years old. love ai.</bio>
+    <location>vancouver, b.c.</location>
+    <contacts>
+      <contact label="email" href="mailto:venstum@gmail.com">[email]</contact>
+      <contact label="github" href="https://github.com/venstum">[github]</contact>
+      <contact label="ko-fi" href="https://ko-fi.com/venstum">[ko-fi]</contact>
+    </contacts>
+  </about>
+</site>
