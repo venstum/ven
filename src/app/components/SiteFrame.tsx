@@ -47,6 +47,7 @@ export default function SiteFrame({
           <Link href="/">home</Link>
           <Link href="/projects">projects</Link>
           <Link href="/pictures">pictures</Link>
+          <Link href="/twitch">twitch</Link>
           <Link href="/blog">blog</Link>
           <Link href="/about">about</Link>
         </nav>
