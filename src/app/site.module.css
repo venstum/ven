@@ -387,7 +387,7 @@
   }
 
   .ascii {
-    font-size: clamp(12px, 3.8vw, 18px);
+    font-size: clamp(8px, 2.8vw, 14px);
     letter-spacing: 0.04em;
     max-width: 100%;
     overflow-x: auto;
