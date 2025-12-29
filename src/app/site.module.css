@@ -387,8 +387,11 @@
   }
 
   .ascii {
-    font-size: clamp(14px, 4.6vw, 20px);
+    font-size: clamp(12px, 3.8vw, 18px);
     letter-spacing: 0.04em;
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 6px;
   }
 
   .nav {
