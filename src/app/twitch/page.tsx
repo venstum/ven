@@ -17,7 +17,6 @@ export default async function TwitchPage() {
       <section className={styles.card}>
         <div className={styles.cardHeader}>twitch</div>
         <div className={styles.cardBody}>
-          <p>Live streams and VODs from venstum.</p>
           <div className={styles.twitchEmbed}>
             <iframe
               src={twitchSrc}
