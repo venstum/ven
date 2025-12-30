@@ -1,0 +1,64 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background-color: #220707;
+  color: #f3f3f3;
+  text-align: center;
+  gap: 18px;
+}
+
+.title {
+  white-space: pre-wrap;
+  margin: 0;
+  opacity: 0.9;
+  user-select: none;
+}
+
+.text {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 60ch;
+}
+
+.text em {
+  text-decoration: underline;
+}
+
+.link {
+  border: 1px solid #f32121;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: inherit;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.09) 20%,
+    rgba(255, 3, 3, 0.329) 100%
+  );
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.link:hover {
+  background-color: #f32121;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 24px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 0.55rem;
+    line-height: 1.2;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
