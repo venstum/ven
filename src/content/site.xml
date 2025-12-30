@@ -17,6 +17,7 @@
     <bio>hello, my name is ven. 25 years old. love ai.</bio>
     <location></location>
     <contacts>
+      <contact label="discord" href="https://discord.gg/XEadTVvfq7">[discord]</contact>
       <contact label="github" href="https://github.com/venstum">[github]</contact>
       <contact label="ko-fi" href="https://ko-fi.com/venstum">[ko-fi]</contact>
     </contacts>
